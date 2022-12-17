@@ -1,0 +1,52 @@
+
+pwd --> print working directory
+
+ls --> list
+
+ls -la --> list all files with hidden ones
+
+cd --> change directory
+
+cd ..  -->  change directory one stap back
+
+cd~ --> change to home directory
+
+git init --> initialize local repository
+
+git add "filename"  or git add . --> tells git which files to track
+
+git commit -m "commit message"--> takes a snapshot of all files in staging area and save them to repo
+
+git status
+
+git log --> it shows all the commits that we have in the repo
+
+git remote add origin "url" --> to astablish connection between local repo and remote repo on GitHub
+
+git remote -v --> check the connection with GitHub
+
+git branch -M main
+
+git push -u origin main
+
+git remote remove origin --> delete connection between local repo and GitHub
+
+git checkout –b  branchName --> create branch
+
+git branch branchName  --> jump to branch branchName
+
+git merge branchName  --> merge branchName with the main branch (при этом нужно находиться в ветке main)
+
+git push origin main
+
+git clone URL folderName
+
+git remote add URL
+
+git pull branchName main
+
+touch .gitignore --> creating .gitignore file
+
+git ls-files --> Show information about files in the index and the working tree (in staging area)
+
+git rm --cached 'filedirectory' --> command remove files from your local git repository
