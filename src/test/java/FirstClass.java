@@ -5,7 +5,10 @@ public class FirstClass {
         System.out.println("changes in first class");
 
         System.out.println("Some changes in first class");
+        
+        System.out.println("Some changes made by AIDER");
 
         System.out.println("Changes made by MARAT");
+
     }
 }
