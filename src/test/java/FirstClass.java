@@ -6,5 +6,6 @@ public class FirstClass {
 
         System.out.println("Some changes in first class");
 
+        System.out.println("Changes made by MARAT");
     }
 }
